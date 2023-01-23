@@ -23,8 +23,8 @@ mongoose
     process.env.DATABASE,
     { dbName: process.env.DB_NAME },
     {
-      useNewUrlParser: true,
       useCreateIndex: true,
+      useNewUrlParser: true,
       useUnifiedTopology: true,
     }
   )
